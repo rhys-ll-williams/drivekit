@@ -1,0 +1,7 @@
+digraph "packages_simulator" {
+rankdir=BT
+charset="utf-8"
+"simulator.commands" [color="black", label=<simulator.commands>, shape="box", style="solid"];
+"simulator.sumo_adapter" [color="black", label=<simulator.sumo_adapter>, shape="box", style="solid"];
+"simulator.sumo_adapter" -> "simulator.commands" [arrowhead="open", arrowtail="none"];
+}

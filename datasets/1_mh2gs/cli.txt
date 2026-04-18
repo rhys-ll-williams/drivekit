@@ -1,0 +1,4 @@
+netconvert --osm mh2gs.osm -o net.xml --ramps.guess --junctions.join --remove-edges.isolated --output.street-names --output.original-names
+python -m randomTrips -n mh2gs.net.xml -o mh2gs.trips.xml
+duarouter -n mh2gs.net.xml -t mh2gs.trips.xml -o mh2gs.rou.xml
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType id="egoType" accel="2.6" decel="4.5" sigma="1.0" length="4.5" minGap="2.5" maxSpeed="30"/>
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" minGap="2.5" maxSpeed="2"/>
+
+  <route id="r0" edges="A0B0"/>
+
+  <!-- Background cars -->
+  <vehicle id="background_0" type="car" route="r0" depart="0" departPos="200" departSpeed="0.5"/>
+  <vehicle id="background_1" type="car" route="r0" depart="1" departPos="random" departSpeed="2"/>
+  <!-- vehicle id="background_2" type="car" route="r0" depart="2" departPos="random" departSpeed="1"/ -->
+  <!-- vehicle id="background_3" type="car" route="r0" depart="3" departPos="random" departSpeed="1"/ -->
+  <!-- vehicle id="background_4" type="car" route="r0" depart="4" departPos="random" departSpeed="1"/ -->
+
+  <!-- Ego vehicle last -->
+  <vehicle id="ego" type="egoType" route="r0" depart="2" departPos="5" departSpeed="30" color="1,0,0"/>
+</routes>

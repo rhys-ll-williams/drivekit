@@ -1,0 +1,8 @@
+digraph "packages_training" {
+rankdir=BT
+charset="utf-8"
+"training.factories" [color="black", label=<training.factories>, shape="box", style="solid"];
+"training.loop" [color="black", label=<training.loop>, shape="box", style="solid"];
+"training.observers" [color="black", label=<training.observers>, shape="box", style="solid"];
+"training.loop" -> "training.observers" [arrowhead="open", arrowtail="none"];
+}

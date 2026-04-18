@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+  <vType id="egoType" accel="2.6" decel="4.5" sigma="0.5" length="4.5" minGap="2.5" maxSpeed="30"/>
+  <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="4.5" minGap="2.5" maxSpeed="2"/>
+
+  <route id="r0" edges="A0B0"/>
+
+  <!-- Background cars -->
+  <vehicle id="background_0" type="car" route="r0" depart="0" departPos="200" departSpeed="0.5"/>
+  <vehicle id="background_1" type="car" route="r0" depart="1" departPos="random" departSpeed="1"/>
+  <vehicle id="background_2" type="car" route="r0" depart="2" departPos="random" departSpeed="1"/>
+  <vehicle id="background_3" type="car" route="r0" depart="3" departPos="random" departSpeed="1"/>
+  <vehicle id="background_4" type="car" route="r0" depart="4" departPos="random" departSpeed="1"/>
+  <vehicle id="background_5" type="car" route="r0" depart="5" departPos="random" departSpeed="1"/>
+  <vehicle id="background_6" type="car" route="r0" depart="6" departPos="random" departSpeed="1"/>
+  <vehicle id="background_7" type="car" route="r0" depart="7" departPos="random" departSpeed="1"/>
+  <vehicle id="background_8" type="car" route="r0" depart="8" departPos="random" departSpeed="1"/>
+  <vehicle id="background_9" type="car" route="r0" depart="9" departPos="random" departSpeed="1"/>
+  <vehicle id="background_10" type="car" route="r0" depart="10" departPos="random" departSpeed="1"/>
+  <vehicle id="background_11" type="car" route="r0" depart="11" departPos="random" departSpeed="1"/>
+  <vehicle id="background_12" type="car" route="r0" depart="12" departPos="random" departSpeed="1"/>
+  <vehicle id="background_13" type="car" route="r0" depart="13" departPos="random" departSpeed="1"/>
+  <vehicle id="background_14" type="car" route="r0" depart="14" departPos="random" departSpeed="1"/>
+  <vehicle id="background_15" type="car" route="r0" depart="15" departPos="random" departSpeed="1"/>
+  <vehicle id="background_16" type="car" route="r0" depart="16" departPos="random" departSpeed="1"/>
+  <vehicle id="background_17" type="car" route="r0" depart="17" departPos="random" departSpeed="1"/>
+  <vehicle id="background_18" type="car" route="r0" depart="18" departPos="random" departSpeed="1"/>
+  <vehicle id="background_19" type="car" route="r0" depart="19" departPos="random" departSpeed="1"/>
+  <vehicle id="background_20" type="car" route="r0" depart="20" departPos="random" departSpeed="1"/>
+
+  <!-- Ego vehicle last -->
+  <vehicle id="ego" type="egoType" route="r0" depart="21" departPos="5" departSpeed="30" color="1,0,0"/>
+</routes>
